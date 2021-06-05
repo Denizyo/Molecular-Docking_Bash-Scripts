@@ -11,8 +11,8 @@ END=100
 rm -rf $nameOfTheCompound
 mkdir -p $nameOfTheCompound
 cp -af conf_$nameOfTheCompound.txt $nameOfTheCompound/conf.txt
-cp -af spikeprotein.pdb $nameOfTheCompound
-cp -af spikeprotein.pdbqt $nameOfTheCompound
+cp -af 6m0j.pdb $nameOfTheCompound
+cp -af 6m0j.pdbqt $nameOfTheCompound
 cp -af $nameOfTheCompound.pdbqt $nameOfTheCompound
 cd $nameOfTheCompound
 
